@@ -1,0 +1,55 @@
+body {
+    background-image: url(../imgs/t5.jpeg);
+    height: 100%;
+    width: 100%;
+
+}
+
+.container h3 {
+    text-transform: uppercase;
+    color: white;
+}
+
+.nav-link {
+    color: white !important;
+    text-transform: uppercase;
+
+}
+
+.card {
+    background: none;
+    border: 0;
+}
+
+.form-control-lg {
+    font-size: 16px;
+}
+
+.card-registration .select-input.form-control {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+
+.card-body h3 {
+    text-align: center;
+}
+
+.mt-4 {
+    text-align: center;
+}
+
+.mt-4 .btn-lg {
+    background-color: rgb(11, 122, 241);
+    color: #ffffff;
+}
+
+.btn-primary {
+    background: #cc4646 !important;
+    border-color: #cc4646 !important;
+}
+
+h3 {
+    color: #cc4646;
+}
