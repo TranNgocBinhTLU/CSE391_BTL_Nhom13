@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+  <link href="font/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+  <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="container">
+        <h3>Profile</h3>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto ">
+            <li class="nav-item">
+                <a  id="home" class="nav-link " href="registration.html">Registration</a>
+              </li>
+            <li class="nav-item">
+              <a style="border-bottom:3px solid white;" id="home" class="nav-link " href="guest-home.html">Home</a>
+            </li>
+            
+    </nav>
+    <!-- end navbar -->
+
+    <!-- start form login -->
+    <section class=" bg-image" >
+      <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+        <div class="container h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+              <div class="card" style="border-radius: 15px;">
+                <div class="card-body p-5">
+                  <h2 class="text-uppercase text-center mb-5">LOGIN</h2>
+    
+                  <form class="form-detail" name="myForm" method="post" onsubmit=" Login()" >
+    
+                    <div class="form-outline mb-4">
+                      <input type="name" id="txtName" name="txtName" class="form-control form-control-lg" placeholder="Your name" />
+                      <span id="nameError"></span>
+                    </div>
+                    <div class="form-outline mb-4">
+                      <input type="password" id="txtPass" name="txtPass" class="form-control form-control-lg" placeholder="Password" />
+                      <span id="passError"></span>
+                    </div>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <label for="vehicle1">Remember password</label><br>
+                    <a class="forget" href="">Forget password ?</a>
+                      
+                    <div class="submit">
+                     
+                      <button name="submit" type="submit"
+                      class="btn btn-lg btn-primary" id="btnCheck" onclick="location.href='admin.html'">Login</button>
+                      
+                    </div>
+                  </form>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+      <!-- end form login -->
+    <script src="js/login.js"></script>  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

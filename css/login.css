@@ -1,0 +1,71 @@
+
+body{
+    background-image: url(../imgs/t5.jpeg);
+    height: 100%;
+    width: 100%;
+    
+}
+h2{
+    color:white;
+}
+h3{
+    color:white;
+    text-transform: uppercase;
+}
+.container h3{
+    text-transform: uppercase;
+    color: white;
+}
+.nav-link{
+    color: white !important;
+    text-transform: uppercase;
+    
+}
+.nav-item{
+  margin-top: 10px;
+  padding:0 5px ; 
+  margin-right: 1px;
+  
+}
+.nav-item a :hover{
+    background-color:pink;
+}
+.btn-outline-dark{
+    color: rgb(239, 182, 10) !important;
+    border-color: rgb(5, 230, 31);
+}
+.card {
+    background: none;
+    border: 0;
+}
+  
+.card-login .select-input.form-control {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+.card-login .select-arrow {
+    top: 13px;
+}
+.submit{
+    text-align: center;
+}
+.btn-primary{
+    background:#cc4646;
+    border-color: #cc4646;
+}
+.forget{
+    font-size: 16px;
+    text-decoration: none;
+    color:black;
+    padding-left: 18px;
+}
+.btnCheck{
+  background-color: #cc4646; 
+  border: 0;
+}
+
+
+
+    
